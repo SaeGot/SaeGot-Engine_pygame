@@ -15,7 +15,7 @@ def main():
     #window_screen.geometry("1280x720")
     window_size = [1280, 720]
     window_screen = pygame.display.set_mode(window_size)
-    window_screen.fill([0, 0, 200])
+    window_screen.fill([150, 230, 220])
     clock = pygame.time.Clock()
     pygame.display.set_caption("Brain Card")
     ID_text = ''
